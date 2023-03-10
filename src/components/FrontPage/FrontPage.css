@@ -1,0 +1,28 @@
+.frontPageContent{
+    margin-top:1rem;
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    background-color: rgba(0,153,255,255);
+    padding:1rem;
+    border-radius:1rem;
+    border-style:outset;
+    box-shadow: 0 0 .5rem black;
+    display:flex;
+    flex-direction:column;
+}
+
+.frontPageContentArea{
+    margin-top:1rem;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.frontPageTitle{
+    background-color:white;
+    padding:.25rem;
+    border-radius:1rem;
+    border-style:outset;
+    box-shadow: 0 0 .5rem black;
+}

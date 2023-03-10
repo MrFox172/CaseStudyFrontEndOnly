@@ -1,0 +1,34 @@
+.Footer{
+    position: fixed;
+    left:0;right:0;bottom:0;
+    height:3rem;
+    background-color:  rgb(255, 255, 255);
+    box-shadow: 0rem 0rem 5rem rgb(28,135,223);
+    background-image: url("C:/Users/Ex Machina/Desktop/RevatureDemos/CaseStudy/CaseStudyFrontEnd/all-mart/src/navbackground.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+    justify-content: center;
+    align-items: center;
+    display:flex; 
+    
+}
+
+.Deved-By{
+    justify-content: left;
+    display: flex;
+    width:50%;
+    margin-left:2rem;
+}
+
+.Footer-Center{
+    justify-content: right;
+    display:flex;
+    width: 50%;
+    margin-right:2rem;
+}
+
+h3.italic{
+    font-style: italic;
+}

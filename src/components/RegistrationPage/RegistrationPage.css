@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+}
+
+.centerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:3rem;
+    margin-left:10%;
+    width:75%;
+    padding:1rem;
+    background-color: rgb(86, 174, 251);
+    border-radius: 1rem;
+    box-shadow: 0 0 5rem rgb(28,135,223);
+    font-size: 1.5rem;
+}
+
+.centerBoxButton{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.25s;
+    width: min-content;
+    white-space: nowrap;
+    margin-top:5px;
+}
+
+.centerBoxButton:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.centerBox input{
+    height: 1rem;
+    width: 75%;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 5px;
+}
+
+.centerBoxInputUser{
+    width:30%;
+}
+
+.centerBoxInputAddress{
+    width:30%;
+}
+
+.centerBoxInput{
+    display:flex;
+    flex-direction:row;
+}
+
+.centerBoxImage{
+    width:40%;
+}

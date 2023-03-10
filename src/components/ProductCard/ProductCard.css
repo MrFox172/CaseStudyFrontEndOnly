@@ -1,0 +1,14 @@
+.productPageCard{
+    margin:1rem;
+    background-color: rgb(168, 201, 255);
+    padding:1rem;
+    width:10rem;
+    border-radius:1rem;
+    border-color: rgb(127, 133, 255);
+    border-style:ridge;
+    box-shadow: 0 0 1rem black;
+}
+
+.productPageCard:hover{
+    cursor:pointer;
+}

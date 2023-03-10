@@ -1,0 +1,49 @@
+.productMain{
+    display:flex;
+    flex-direction: row;
+    width:90%;
+    margin-left:5%;
+    margin-top:2rem;
+    padding:1rem;
+    border-radius:1rem;
+}
+
+.productMainDisplay{
+    margin-left:1%;
+    margin-right:1%;
+    width:23%;
+    border-radius:1rem;
+    padding:1rem;
+    background-color: rgb(86, 174, 251);
+    box-shadow: 0 0 5rem rgb(28,135,223);
+    border-style:outset;
+    border-color:rgb(28,135,223)
+}
+
+.productMainDisplayCount{
+    width:1rem;
+}
+
+.productMainDetails{
+    margin-left:1%;
+    margin-right:1%;
+    width:40%;
+    border-radius:1rem;
+    padding:1rem;
+    background-color: rgb(86, 174, 251);
+    box-shadow: 0 0 5rem rgb(28,135,223);
+    border-style:outset;
+    border-color:rgb(28,135,223)
+}
+
+.productMainCart{
+    margin-left:1%;
+    margin-right:1%;
+    width:31%;
+    padding:1rem;
+    background-color: rgb(86, 174, 251);
+    border-radius:1rem;
+    box-shadow: 0 0 5rem rgb(28,135,223);
+    border-style:outset;
+    border-color:rgb(28,135,223)
+}
